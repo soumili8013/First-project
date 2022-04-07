@@ -1,0 +1,175 @@
+ body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+ 
+
+/* Header section CSS */
+
+header{
+    position: relative;
+    background-color: #e4f9ff;
+    text-align: center;
+    padding-top: 100px;
+    /* border:3px solid #BCBDBD; */
+}
+
+.top-cloud{
+
+    position: absolute;
+    top: 50px;
+    right: 260px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    /* font-weight: 700; */
+    font-size: 60px;
+    color: #2c786c;
+    
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #2c786c;
+    font-size: 33px;
+    font-weight: 30px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-align: left;
+    font-weight: bold;
+}
+.bottom-cloud{
+
+    position: absolute;
+    bottom: 300px;
+    left: 260px;
+}
+
+/* scetion */
+.mid{
+  margin :50px 0;
+
+}
+.first{
+   
+    height: 178px; 
+    width: 175px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.intro{
+    width: 50%;
+    margin: 10px auto;
+    line-height: 3;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+    border-color: #D7D7D7;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 124px auto;
+}
+
+.skill-1{
+    width: 26%;
+    float: left;
+    margin-right: 80px;
+
+}
+
+.skill-2{
+    width: 26%;
+    float: right;
+    margin-left: 80px;
+}
+
+.skill-3{
+    width: 26%;
+    float: left;
+    margin-right: 80px;
+}
+.skill-para{
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
+    color: #40514E;
+}
+.skill-center{
+    text-align: center;
+}
+.box{
+  width: 21%;
+    background-color: #11999E;
+    margin: 10px auto;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+}
+.para1{
+    margin: 40px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 30%;
+    background-color: #66BFBF;
+    margin: 0;
+    font-style: unset;
+
+    padding: 35px 0;
+}
+
+
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#599bb3, #408c99);
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#408c99, #599bb3);
+    color:aliceblue;
+  }
+
+  .botom-link{
+    font-family: 'Sacramento', cursive;
+    color: #11999E;
+    width:20%;
+    margin: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.botom-link:hover{
+    color:white;
+}
+
+h6{
+    color: white;
+}
